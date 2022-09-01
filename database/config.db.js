@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 // mongoose.connect(
 //  process.env.MONGODB_URI || "mongodb://localhost/infomoto_dev",
 mongoose.connect(
-  "mongodb_uri",
+  process.env.MONGODB_URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
