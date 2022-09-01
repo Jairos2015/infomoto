@@ -14,7 +14,7 @@ export default class WhatsappService {
     constructor() {}
     async _fetchAssistant(endpoint) {
         console.log("ENDPOINT: "+endpoint);
-        const url = `https://f08a-179-1-67-82.ngrok.io/api/v1${endpoint ? endpoint : '/'}`;
+        const url = `https://frightened-panama-hat-eel.cyclic.app/api/v1${endpoint ? endpoint : '/'}`;
         console.log(url);
         const {data} = await axios.get(url, {
                 headers: {
