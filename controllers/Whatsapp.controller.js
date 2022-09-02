@@ -1,7 +1,7 @@
 import whatsappService from '../services/Whatsapp.service.js';
 import express from "express";
 const router = express.Router();
-import Moto from '../models/moto.js'
+import Moto from '../models/Moto.js'
 import WhatsappCloudAPI from 'whatsappcloudapi_wrapper';
 //
 const Whatsapp = new WhatsappCloudAPI({
