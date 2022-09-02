@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "env-cmd nodemon index.js",
+    "start": "env-cmd node index.js",
+    "repl": "env-cmd node",
     "test": "mocha --timeout 10000"
   },
   "keywords": [],
